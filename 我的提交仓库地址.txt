@@ -1,1 +1,16 @@
 git@github.com:yhy1826518880/vue-54.git
+
+1：打开阿帕奇启动  打开navgit 导入后台sql文件
+2:后台文件打开： 命令面板： node app.js 回车键运行后台
+3：项目目录下打开命令面板： npm run dev 运行项目
+4：package.json 文件配置（自动打开浏览器 ）："dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --open",
+5：（自动修正eslint代码规范错误 npm run lintfix）： "linkfix": "eslint --ext .js,.vue src --fix",（这个是自定义指令）
+6：npm i element-ui -S 安装element-ui
+7：Element首页查看 main.js 导入
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+//使用Vue的插件
+Vue.use(ElementUI)
+
+
+登陆账号：admin 密码：123456
